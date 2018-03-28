@@ -4,8 +4,8 @@
 - Crie um banco de dados local;
 - Crie um arquivo chamado db-local.php dentro de config e coloca o seguinte conteúdo:
 
-> 
-`<?php
+```
+<?php
  return [
  'class' => 'yii\db\Connection',
  'dsn' => 'mysql:host=localhost;dbname=nome_banco',
@@ -13,7 +13,7 @@
  'password' => 'senha',
  'charset' => 'utf8',
 ];
-`
+``` 
 
 - Configue o **db-local.php** conforme sua conexão local.
 - IMPORTANTE: Mude para o branch **dev**, executando **git checkout -b dev**;
