@@ -46,7 +46,7 @@ $config = [
             // 'useFileTransport' to false and configure a transport
             // for the mailer to send real emails.
             'useFileTransport' => false,
-            'apiKey' => 'sendgrid_key'
+            'apiKey' => 'sendgrid_api_key'
         ],
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
